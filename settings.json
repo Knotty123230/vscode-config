@@ -3,14 +3,14 @@
   "terminal.integrated.fontSize": 12,
   // "editor.fontFamily": "psudoFont Liga Mono",
   
-  "editor.fontFamily": "Hack",
+  "editor.fontFamily": "Berkeley Mono",
   //  "editor.fontFamily": "LiterationMono Nerd Font Mono",
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 16,
   "editor.lineHeight": 1.4,
   "editor.renderWhitespace": "none",
   "workbench.editorAssociations": {
@@ -334,6 +334,26 @@
       ],
       "commands": [
         "editor.action.revealDefinition"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j",
+        "t"
+      ],
+      "commands": [
+        "java.action.navigateToTest"
       ]
     }
   ],
